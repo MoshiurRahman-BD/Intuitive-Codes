@@ -1,0 +1,11 @@
+maxtry=1
+while maxtry<=3:
+		password=input("Enter Password: ")
+		if password=="open":
+			print("Door Opening")
+			break
+		else:
+			print("Wrong Password")
+		maxtry+=1
+else:
+	print("Door Locked")
