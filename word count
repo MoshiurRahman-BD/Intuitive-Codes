@@ -1,0 +1,7 @@
+sen="Python is great, Python is powerfull"
+l=sen.split()
+s=set(l)
+d={}
+for i in s:
+	d.update({i:sen.count(i)})
+print(d)
